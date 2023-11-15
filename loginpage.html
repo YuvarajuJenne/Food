@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="Stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+    <!-- <link rel="stylesheet" href="loginpage.css"> -->
+   <style>
+    #con{
+ background-image:url("https://tse3.mm.bing.net/th?id=OIP.xli9H8ZZ-xfWoSMCgHvYfAHaEK&pid=Api&P=0&h=180.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%100%;
+   width:550px;
+   height:550px;
+   text-align: center;
+ 
+   margin-top:7%;
+ 
+ 
+   
+
+}
+#ins{
+   
+    width:350px;
+   height:450px;
+   background-color:black;
+   opacity: 0.7;
+    margin-left: 18%;
+color:darkgoldenrod;
+
+
+    
+
+}
+input{
+    height: 20px;
+    text-align: center;
+}
+
+body{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.xiSC1lBVNDMraodjhTqh0AHaEo&pid=Api&P=0&h=180.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%100%;
+        background-attachment: fixed;
+        background-position:center;
+}
+   </style>
+</head>
+<script>
+ function comp(){
+    let user=document.getElementById('user').value;
+let pass=document.getElementById('pass').value;
+let username="shabazalibanala205205@gmail.com"
+let password="9949689660"
+if((user==username)&&(pass==password))
+{
+alert("Login Sucessfully")
+}
+else{
+alert("Invalid Email/Password")
+alert("Enter correct Email/password")
+}
+
+    
+ }
+</script>
+<body>
+ <center><div id="con">
+    <div id="ins" >
+        <div style="color:white;">MEMBER LOGIN</div>
+        <div >Enter Email:<input  type="text" name="name" style="margin-top:50px;width:220px;margin-left: 20px;"id="user"><div>
+        <div>Enter Password:<input type="text" name="name" style="margin-top:50px;width:220px;margin-left: 2px;"id="pass"><div>
+            <button style="margin-top:50px;width:220px;margin-left: 2px;" onclick="comp()">LOGIN</button>
+            <p>Forgot Password <a href="">Click Here</a></p>
+            <a href="shopping.html"><button style="margin-top:50px;width:220px;margin-left: 2px;background-color: aqua;">Home</button></a>
+            
+        
+    </div> 
+ </div>
+ 
+</center>
+</body>
+</html>

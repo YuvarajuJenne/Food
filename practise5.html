@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+  var table=[
+    {
+        "name":"banala shabaz ali",
+        "profission":"software developer"
+    },
+    {
+        "name":"Harsha vardhan Reddy",
+        "profission":"AEE"
+    }
+  ];
+  console.table(table,["name","profission"]);
+function dis(){
+    let btn=document.createElement("button");
+    btn.innerHTML="Click me";
+    btn.style.color="red";
+    document.querySelector("h").appendChild(btn);
+   }
+   var date=new Date();
+   let mo=date.getMonth();
+   let yr=date.getFullYear();
+   let time=date.getTime();
+   document.write(mo+"-"+yr+"-"+time);
+  
+    document.write(res);
+   
+   </script>
+
+       
+</head>
+<body onload="dis()">
+    <h></h>
+</body>
+</html>
